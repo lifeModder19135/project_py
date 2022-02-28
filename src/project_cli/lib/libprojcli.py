@@ -1,21 +1,21 @@
 import pathlib
 
-class project
+class project:
 
     @property
-    def rootpath():
+    def rootpath(self):
         return self._root
 
     @rootpath.setter
-    def rootpath(path: pathlib.Path):
+    def rootpath(self, path: pathlib.Path):
         self._root = path
 
-        @property
-    def langs():
+    @property
+    def langs(self):
         return self._langtypes
 
     @rootpath.setter
-    def rootpath(lang: str):
+    def rootpath(self,langs: str):
         self._langtypes = langs
 
 
