@@ -7,9 +7,9 @@ setup(
     package_dir = {
         'project': 'project_cli',
         'libpcli': 'project_cli/lib'
-    }
-#    entry_points = '''
-#        [console_scripts]
-#        project=project:main:entrypoint
-#    '''
+    },
+    entry_points = '''
+        [console_scripts]
+        project=project.proj:entrypoint
+    '''
 )
