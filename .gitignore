@@ -1,3 +1,4 @@
 **/project.egg-info/
 **/__pycache__/
 **/__*__/
+.vscode/
